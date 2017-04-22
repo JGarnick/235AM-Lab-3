@@ -1,0 +1,4 @@
+Lab3.MainActivity, Lab3;md58dfa6309987873f7edb13e938fbd7267.MainActivity
+Lab3.MainActivity, Lab3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58dfa6309987873f7edb13e938fbd7267.MainActivity
+Lab3.MainActivity;md58dfa6309987873f7edb13e938fbd7267.MainActivity
+lab3.MainActivity;md58dfa6309987873f7edb13e938fbd7267.MainActivity
