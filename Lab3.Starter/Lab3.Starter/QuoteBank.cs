@@ -18,18 +18,6 @@ namespace Lab3
 		public List<Quote> Quotes { get { return quotes; } }
 		public Quote CurrentQuote { get; set; }
 
-        /*
-		public Quote GetRandomQuote() 
-		{
-			if (quotes.Count > 0) 
-			{
-				CurrentQuote = quotes [randNumGen.Next (0, quotes.Count)];
-			}
-				
-			return CurrentQuote;
-		}
-        */
-
         public Quote GetNextQuote()
         {
             if (quotes.Count > 0)

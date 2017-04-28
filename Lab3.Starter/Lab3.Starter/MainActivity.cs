@@ -43,19 +43,6 @@ namespace Lab3
             //This should be the proper result based on logic above
             quotationTextView.Text = quoteCollection.CurrentQuote.Quotation;
             quotationPersonTextView.Text = "-- " + quoteCollection.CurrentQuote.Person;
-
-
-            //if (savedInstanceState != null)
-            //{
-
-            //    quotationTextView.Text = savedInstanceState.GetString("current_quote_text");
-            //    quotationTextView.Text = savedInstanceState.GetString("current_quote_person");
-            //}
-            //else
-            //{
-            //    quotationTextView.Text = quoteCollection.CurrentQuote.Quotation;
-            //    quotationPersonTextView.Text = "-- " + quoteCollection.CurrentQuote.Person;
-            //}
             
             // Display another quote when the "Next Quote" button is tapped
             var nextButton = FindViewById<Button>(Resource.Id.nextButton);
@@ -64,8 +51,6 @@ namespace Lab3
                 quotationTextView.Text = quoteCollection.CurrentQuote.Quotation;
                 quotationPersonTextView.Text = "-- " + quoteCollection.CurrentQuote.Person;
             };
-
-            
 
             var enterButton = FindViewById<Button>(Resource.Id.enterButton);
 
@@ -99,10 +84,6 @@ namespace Lab3
 
             string xmlQuotes = writer.ToString();
             outState.PutString("Quotes", xmlQuotes);
-
-
-            //outState.PutString("current_quote_text", quoteCollection.CurrentQuote.Quotation);
-            //outState.PutString("current_quote_person", quoteCollection.CurrentQuote.Person);
         }
     }
 }
